@@ -16,7 +16,7 @@ export default class Quiz extends Component {
         <div className='navigation'>
             <button id='prevBtn'>Previous</button>
             <button id='nextBtn'>Next</button>
-            <button id='quitBtn' onClick={this.props.startResult}>Quit</button>
+            <button id='quitBtn'>Quit</button>
         </div>
       </div>
     )

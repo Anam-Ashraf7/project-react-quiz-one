@@ -29,7 +29,7 @@ export default class Result extends Component {
         </div>
         <div>
             <button id='playAgain'>Play Again</button>
-            <button id='goHome' onClick={this.props.startHome}>Back To Home</button>
+            <button id='goHome'>Back To Home</button>
         </div>
       </div>
     )

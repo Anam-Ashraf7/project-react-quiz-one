@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <div id='home'>
         <h1>Quiz App</h1>
-        <button onClick={this.props.startQuiz}>Play</button>
+        <button>Play</button>
       </div>
     )
   }
